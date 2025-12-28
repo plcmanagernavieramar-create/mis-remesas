@@ -1,3 +1,4 @@
+
 export interface MarketRates {
   ves: number; // Precio de 1 USDT/USD en Bolívares
   brl: number; // Precio de 1 USDT/USD en Reales
@@ -18,6 +19,7 @@ export interface ExchangeRate {
   source: string;
   groundingSources?: GroundingSource[];
 }
+
 export type Direction = 'BRL_TO_VES' | 'VES_TO_BRL';
 
 export interface Transaction {
