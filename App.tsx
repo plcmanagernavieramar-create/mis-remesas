@@ -1,4 +1,3 @@
-
 import React, { useState, useEffect, useCallback } from 'react';
 import { ExchangeRate, Transaction, AppSettings } from './types';
 import { fetchLatestRates } from './services/geminiService';
@@ -221,5 +220,6 @@ const App: React.FC = () => {
     </div>
   );
 };
+
 
 export default App;
