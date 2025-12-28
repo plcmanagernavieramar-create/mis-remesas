@@ -1,4 +1,3 @@
-
 import React, { useState } from 'react';
 
 interface AuthGateProps {
@@ -60,3 +59,4 @@ const AuthGate: React.FC<AuthGateProps> = ({ onUnlock }) => {
 };
 
 export default AuthGate;
+
