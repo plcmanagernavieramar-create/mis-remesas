@@ -1,0 +1,7 @@
+{
+  "name": "BRL-VES Envíos Rápidos",
+  "description": "Plataforma de remesas para envíos de Reales (BRL) a Bolívares (VES) con cálculo de tasa en tiempo real y confirmación vía WhatsApp.",
+  "requestFramePermissions": [
+    "camera"
+  ]
+}
