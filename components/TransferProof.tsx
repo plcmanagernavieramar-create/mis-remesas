@@ -1,4 +1,3 @@
-
 import React, { useState } from 'react';
 import { Transaction, AppSettings } from '../types';
 
@@ -114,3 +113,4 @@ const TransferProof: React.FC<TransferProofProps> = ({ transaction, settings, on
 };
 
 export default TransferProof;
+
