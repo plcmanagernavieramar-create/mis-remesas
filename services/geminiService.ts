@@ -1,4 +1,3 @@
-
 import { GoogleGenAI, Type } from "@google/genai";
 import { ExchangeRate, GroundingSource } from "../types";
 
@@ -50,3 +49,4 @@ export const fetchLatestRates = async (): Promise<ExchangeRate> => {
     throw error;
   }
 };
+
