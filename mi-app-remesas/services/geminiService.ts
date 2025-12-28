@@ -1,4 +1,3 @@
-
 import { GoogleGenAI, Type, GenerateContentResponse } from "@google/genai";
 import { ExchangeRate, GroundingSource } from "../types";
 
@@ -77,4 +76,5 @@ DEVUELVE SOLO EL JSON.`,
     console.error("Error al obtener datos de p2p.army:", error);
     throw error;
   }
+
 };
