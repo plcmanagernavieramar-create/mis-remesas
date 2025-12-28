@@ -1,4 +1,3 @@
-
 import React, { useState, useEffect } from 'react';
 import { ExchangeRate, Transaction, Direction, AppSettings } from '../types';
 
@@ -158,5 +157,6 @@ const Converter: React.FC<ConverterProps> = ({ rate, settings, onContinue }) => 
     </div>
   );
 };
+
 
 export default Converter;
