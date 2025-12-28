@@ -1,4 +1,3 @@
-
 import React, { useState } from 'react';
 import { AppSettings, ExchangeRate, ManualRates } from '../types';
 
@@ -203,3 +202,4 @@ const AdminPanel: React.FC<AdminPanelProps> = ({ settings, rate, onSave, onClose
 };
 
 export default AdminPanel;
+
